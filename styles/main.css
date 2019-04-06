@@ -1,0 +1,93 @@
+/* Comments */
+
+#main {
+  height:100%;
+  padding:0;
+  margin:0;
+  font-family: sans-serif;   
+  font-family: 'Indie Flower', cursive;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+#title { 
+  color: #222;
+  text-align: center;
+  background: linear-gradient(to bottom, white, #1234, white); 
+  margin: 10 0 0 0;    
+}
+
+h1 {
+  font-size: 75px;
+  font-family: 'Roboto Condensed', monospace;
+  font-style: oblique;
+  margin-top: 30px;
+  margin-bottom: auto;    
+}
+
+h3 {
+  text-align: center;
+  color: #111;
+  margin-bottom: 40px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 25px;    
+}
+
+header {
+    text-align: center;
+    color: #444;
+    margin-bottom: -30px;
+}
+
+#image {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: auto;
+}
+
+figcaption {  
+  margin-top: -50px;
+  margin-bottom: 70px;    
+  text-align: center; 
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 1000; 
+  font-size: 120%;    
+}
+
+p {
+  text-align: center;
+  margin-bottom: 40px;    
+}
+
+blockquote {
+  text-align: center;
+  margin-top: 60px; 
+  font-family: 'Indie Flower', cursive;
+  font-size: 25px;
+  font-weight: 900;    
+}
+
+#tribute-info {
+  max-width: 500px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 70px;
+  text-align: left;
+  background: #24C6DC;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #514A9D, #24C6DC);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #514A9D, #24C6DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border: solid;
+  border-color: black;
+  box-shadow: 10px 10px;    
+}
+
+li {
+  margin: 0px;
+}
+
+@media screen and (max-width: 650px) {
+  figcaption {  
+    margin-top: -20px;
+  }
+}
